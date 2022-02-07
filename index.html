@@ -10,18 +10,20 @@
   </head>
   <style media="screen">
   body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+  }
 
+  #paypal-button-container{
+    width: 50vw;
+  }
   </style>
   <body>
     <!-- live: AT2BPvUIJbglHYC3ABU6MF2FP53lvLjsQBcsMEz15p6GZjBGp4fvg8nzwzztuJW-dfDkKHH6BQUWJUmw -->
-    <script
-      src="https://www.paypal.com/sdk/js?client-id=AT2BPvUIJbglHYC3ABU6MF2FP53lvLjsQBcsMEz15p6GZjBGp4fvg8nzwzztuJW-dfDkKHH6BQUWJUmw"> // Required. Replace YOUR_CLIENT_ID with your sandbox client ID.
+    <script src="https://www.paypal.com/sdk/js?client-id=AT2BPvUIJbglHYC3ABU6MF2FP53lvLjsQBcsMEz15p6GZjBGp4fvg8nzwzztuJW-dfDkKHH6BQUWJUmw">
     </script>
 
     <div id="paypal-button-container"></div>
